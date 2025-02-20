@@ -1,7 +1,5 @@
-# app.py
-
-def greet(name):
-    return f"Hello, {name}!"
+def hello_world():
+    print("Hello, World!")
 
 if __name__ == "__main__":
-    print(greet("Jenkins"))
+    hello_world()
