@@ -1,5 +1,8 @@
-def hello_world():
-    print("Hello, World!")
+from datetime import datetime
 
-if __name__ == "__main__":
-    hello_world()
+# Get current date and time
+now = datetime.now()
+formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
+
+# Print to console
+print("Current Date and Time:", formatted_time)
